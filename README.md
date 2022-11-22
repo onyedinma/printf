@@ -6,22 +6,22 @@ using C language to build a custom printf function
 
 
 ## Contributors
-1. Jay Ogunronbi 
-Github: https://github.com/jaypor
+1. BELINDA PONDAYI 
+Github: https://github.com/
 
-2. Peter Ani
-Github: https://github.com/vortex-hue
+2. ONYEKACHI ONYEDINMA 
+Github: https://github.com/onyedinma
 ## Acknowledgements
 
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
+ - [Peer Programming]
+ - [Secret of Printf]
  - [Google](https://google.com/)
 
 
 ## Authors
 
-- [@Jay](https://www.github.com/jaypor)
-- [@Peter](https://www.github.com/vortex-hue)
+- [@belinda](https://www.github.com/)
+- [@onyedinma](https://www.github.com/onyedinma)
 
 
 ## Description
@@ -39,23 +39,28 @@ using C language to build a custom printf function
 
 
 ## Contributors
-1. Jay Ogunronbi 
-Github: https://github.com/jaypor
+1. Belinda Pondayi 
+Github: https://github.com/
 
-2. Peter Ani
-Github: https://github.com/vortex-hue
+2. Onyekachi Onyedinma 
+Github: https://github.com/onyedinma 
 ## Acknowledgements
 
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
- - [Google](https://google.com/)
-
+ - [Peer Programming](https://
+ - [Secret of Printf]
+ - [Google](https://google.com/
 
 ## Authors
+1. Belinda Pondayi 
+Github: https://github.com/
 
-- [@Jay](https://www.github.com/jaypor)
-- [@Peter](https://www.github.com/vortex-hue)
+2. Onyekachi Onyedinma 
+Github: https://github.com/onyedinma 
+## Acknowledgements
 
+ - [Peer Programming](https://
+ - [Secret of Printf]
+ - [Google](https://google.com/
 
 ## Description
 This is a group project by me and peter.
