@@ -1,86 +1,113 @@
-
-# 0x11. C - printf
-
-A Team Project for alx software engineering program
-using C language to build a custom printf function
-
-
-## Contributors
-1. Belinda Pondayi
-Github: https://github.com/
-
-2. Onyekachi Onyedinma 
-Github: https://github.com/onyedinma
-## Acknowledgements
-
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
- - [Google](https://google.com/)
-
-
-## Authors
-
-- [@onyedinma](https://www.github.com/onyedinma)
-- [@belinda Pondayi](https://www.github.com/)
-
+[Secrets_of_printf.pdf](https://github.com/Lordwill1/printf/files/10059782/Secrets_of_printf.pdf)
+# printf Project
 
 ## Description
-This is a group project by me and peter.
-It's part of our requirements for passing c alx
-software engineering program.
+This team project is part of the first year curriculum of ALX.
+_printf replicates the C standard library printf() function.
 
-This is a peer project
+What you should learn from this project:
 
+* How to use git in a team setting
+* Applying variadic functions to a big project
+* The complexities of printf
+* Managing a lot of files and finding a good workflow
 
-# 0x11. C - printf
+---
 
-A Team Project for alx software engineering program
-using C language to build a custom printf function
+## Prototype
+```int _printf(const char *format, ...);```
 
+## Usage
+* Prints a string to the standard output, according to a given format
+* All files were created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command ```gcc -Wall -Werror -Wextra -pedantic *.c```
+* Returns the number of characters in the output string on success, -1 otherwise
+* Call it this way: ```_printf("format string", arguments...)``` where ```format string``` can contain conversion specifiers and flags,
+along with regular characters
 
-## Contributors
-1. Belinda Pondayi
-Github: https://github.com/
+## Examples
 
-2. Onyekachi Onyedinma 
-Github: https://github.com/onyedinma
-## Acknowledgements
+* ```_printf("Hello, main\n")``` *prints "Hello, Main", followed by a new line*
+* ```_printf("%s", "Hello")``` *prints "Hello"*
+* ```_printf("This is a number: %d", 98)``` *prints "This is a number: 98"*
 
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
- - [Google](https://google.com/)
+---
 
+# Tasks
 
-## Authors
+These are all the tasks of this project, the ones that are completed link to the corresponding files.
 
-- [@belinda](https://www.github.com/)
-- [@onyedinma](https://www.github.com/onyedinma)
+### [0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life](./functions.c)
+* Write a function that produces output according to format.
+  - c : converts input into a character
+  - s : converts input into a string
 
+### [1. Education is when you read the fine print. Experience is what you get if you don't](handle_print.c)
+* Handle the following conversion specifiers:
+  - d : converts input into a base 10 integer
+  - i : converts input into an integer
 
-## Description
-This is a group project by me and Belinda.
-It's part of our requirements for passing c alx
-software engineering program.
+### [2. Just because it's in print doesn't mean it's the gospel]()
+* Create a man page for your function
 
-This is a peer-peer project
-## Pseudocode
-<blockquote><p><span style="color: #000000;"><strong>Module&nbsp;1:&nbsp;Initializing a variadic function </strong></span></p></blockquote>
-<p style="text-align: justify;"><span style="color: #000000;">In this section, we initialize the arguments of Myprintf( ) function by using standard argument library.</span></p>
-<pre class="lang:default decode:true ">va_list arg;</pre>
-<p style="text-align: justify;"><span style="color: #000000;">This line declares a variable, <strong>arg</strong>, which we use to&nbsp;manipulating the argument list containing variable arguments of Myprintf( ). The data type of the variable is va_list, a special type defined by &lt;stdarg.h&gt;.</span></p>
-<pre class="lang:default decode:true">va_start(arg, format);
-</pre>
-<p style="text-align: justify;"><span style="color: #000000;">This line initializes <tt><strong>arg</strong> variable with&nbsp;</tt>function’s last fixed argument i.e. <strong>format</strong>. <tt>va_start()</tt> uses this to figure out where the variable arguments begin.</span></p>
-<blockquote>
-<p style="text-align: justify;"><span style="color: #000000;"><strong>Module&nbsp;2: Fetching and executing arguments</strong></span></p>
-</blockquote>
-<pre class="lang:default decode:true ">i = va_arg(arg,int);</pre>
-<p style="text-align: justify;"><span style="color: #000000;">va_arg() fetches the next argument from the argument list. The second parameter&nbsp;to va_arg() is the <strong>data type</strong> of the argument we expect.&nbsp;</span></p>
-<p style="text-align: justify;"><span style="color: #000000;">Note:&nbsp;va_arg( ) function will never receive arguments of type char, short int, or float. va_arg( ) function only accept arguments of type char *, unsigned int, int or double.</span></p>
-<blockquote>
-<p style="text-align: justify;"><span style="color: #000000;"><strong>Module 3: Closing argument list to necessary clean-up</strong></span></p>
-</blockquote>
-<pre class="">	va_end(arg);
-</pre>
-<p style="text-align: justify;"><span style="color: #000000;">Finally, when we’re finished processing the all arguments, we call <tt>va_end()</tt>, which performs any necessary cleanup.</span></p>
+### [3. With a face like mine, I do better in print]()
+* Handle the following conversion specifiers:
+  - b : the unsigned int argument is converted to binary
 
+### [4. What one has not experienced, one will never understand in print]()
+* Handle the following conversion specifiers:
+  - u : converts the input into an unsigned integer
+  - o : converts the input into an octal number
+  - x : converts the input into a hexadecimal number
+  - X : converts the input into a hexadecimal number with capital letters
+
+### [5. Nothing in fine print is ever good news]()
+* Use a local buffer of 1024 chars in order to call write as little as possible.
+
+### [6. My weakness is wearing too much leopard print](./print_custom.c)
+* Handle the following custom conversion specifier:
+  - S : prints the string
+  - Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
+
+### [7. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print](./print_address.c)
+* Handle the following conversion specifier:
+  - p : int input is converted to a pointer address
+
+### [8. The big print gives and the small print takes away](./get_flag.c)
+* Handle the following flag characters for non-custom conversion specifiers:
+  - \+ : adds a \+ in front of signed positive numbers and a \- in front of signed negative numbers
+  - space : same as \+, but adds a space (is overwritten by \+)
+  - \# : adds a 0 in front of octal conversions that don't begin with one, and a 0x or 0X for x or X conversions
+
+### [9. Sarcasm is lost in print]
+* Handle the following length modifiers for non-custom conversion specifiers:
+  - l : converts d, i, u, o, x, X conversions in short signed or unsigned ints
+  - h : converts d, i, u, o, x, X conversions in long signed or unsigned ints
+
+### [10. Print some money and give it to us for the rain forests]
+* Handle the field width for non-custom conversion specifiers.
+
+### [11. The negative is the equivalent of the composer's score, and the print the performance]
+* Handle the precision for non-custom conversion specifiers.
+
+### [12. It's depressing when you're still around and your albums are out of print]
+* Handle the 0 flag character for non-custom conversion specifiers.
+
+### [13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection]
+* Handle the - flag character for non-custom conversion specifiers.
+
+### [14. Print is the sharpest and the strongest weapon of our party](./print_custom.c)
+* Handle the following custom conversion specifier:
+  - r : prints the reversed string
+
+### [15. The flood of print has turned reading into a process of gulping rather than savoring](./print_custom.c)
+* Handle the following custom conversion specifier:
+  - R : prints the rot13'ed string
+
+### [16. * ]
+* All the above options work well together.
+
+---
+
+### Authors
+* **BECKY ISIJOLA** - [temmyisijola@gmail.com](https://github.com/Becky04)
+* **GODSWILL KALU** - [messagelordwill@gmail.com](https://github.com/Lordwill1)
