@@ -6,11 +6,11 @@ using C language to build a custom printf function
 
 
 ## Contributors
-1. Jay Ogunronbi 
-Github: https://github.com/jaypor
+1. Belinda Pondayi
+Github: https://github.com/
 
-2. Peter Ani
-Github: https://github.com/vortex-hue
+2. Onyekachi Onyedinma 
+Github: https://github.com/onyedinma
 ## Acknowledgements
 
  - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
