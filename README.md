@@ -6,22 +6,22 @@ using C language to build a custom printf function
 
 
 ## Contributors
-1. Belinda Pondayi
+1. BELINDA PONDAYI 
 Github: https://github.com/
 
-2. Onyekachi Onyedinma 
+2. ONYEKACHI ONYEDINMA 
 Github: https://github.com/onyedinma
 ## Acknowledgements
 
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
+ - [Peer Programming]
+ - [Secret of Printf]
  - [Google](https://google.com/)
 
 
 ## Authors
 
+- [@belinda](https://www.github.com/)
 - [@onyedinma](https://www.github.com/onyedinma)
-- [@belinda Pondayi](https://www.github.com/)
 
 
 ## Description
@@ -39,30 +39,35 @@ using C language to build a custom printf function
 
 
 ## Contributors
-1. Belinda Pondayi
+1. Belinda Pondayi 
 Github: https://github.com/
 
 2. Onyekachi Onyedinma 
-Github: https://github.com/onyedinma
+Github: https://github.com/onyedinma 
 ## Acknowledgements
 
- - [Peer Programming](https://alx-intranet.hbtn.io/concepts/121)
- - [Secret of Printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
- - [Google](https://google.com/)
-
+ - [Peer Programming](https://
+ - [Secret of Printf]
+ - [Google](https://google.com/
 
 ## Authors
+1. Belinda Pondayi 
+Github: https://github.com/
 
-- [@belinda](https://www.github.com/)
-- [@onyedinma](https://www.github.com/onyedinma)
+2. Onyekachi Onyedinma 
+Github: https://github.com/onyedinma 
+## Acknowledgements
 
+ - [Peer Programming](https://
+ - [Secret of Printf]
+ - [Google](https://google.com/
 
 ## Description
-This is a group project by me and Belinda.
+This is a group project by me and peter.
 It's part of our requirements for passing c alx
 software engineering program.
 
-This is a peer-peer project
+This is a peer project
 ## Pseudocode
 <blockquote><p><span style="color: #000000;"><strong>Module&nbsp;1:&nbsp;Initializing a variadic function </strong></span></p></blockquote>
 <p style="text-align: justify;"><span style="color: #000000;">In this section, we initialize the arguments of Myprintf( ) function by using standard argument library.</span></p>
